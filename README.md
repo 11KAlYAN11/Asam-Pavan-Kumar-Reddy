@@ -1,590 +1,172 @@
+# 👨‍💻 Asam Pavan Kumar Reddy
 
-<h1 align="center">Developer Portfolio</h1>
+<div align="center">
 
-<p align="center">
-  <strong>A modern, responsive, and customizable portfolio template for developers and freelancers</strong>
+### Java Full Stack Developer & DevOps Engineer
+
+<p>
+  <img src="https://img.shields.io/badge/Java-Full%20Stack-orange?style=for-the-badge&logo=java" alt="Java Full Stack">
+  <img src="https://img.shields.io/badge/DevOps-Engineer-blue?style=for-the-badge&logo=devops" alt="DevOps Engineer">
+  <img src="https://img.shields.io/badge/Spring-Boot-6DB33F?style=for-the-badge&logo=spring-boot" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/AWS-Certified-FF9900?style=for-the-badge&logo=amazon-aws" alt="AWS">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16.0.1-black?style=for-the-badge&logo=next.js" alt="Next.js 16.0.1">
-  <img src="https://img.shields.io/badge/React-19.2.0-blue?style=for-the-badge&logo=react" alt="React 19.2.0">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS 4">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
-</p>
+**Building scalable backends, clean APIs, and cloud-ready applications with solid CI/CD, Docker, Kubernetes, and automation practices.**
 
-<p align="center">
-  <a href="#demo-movie_camera">Demo</a> •
-  <a href="#features-sparkles">Features</a> •
-  <a href="#installation-arrow_down">Installation</a> •
-  <a href="#usage-joystick">Usage</a> •
-  <a href="#deployment-rocket">Deployment</a> •
-  <a href="#tutorials-wrench">Tutorials</a>
-</p>
+[🌐 Portfolio](#portfolio) • [💼 Experience](#experience) • [🛠️ Skills](#skills) • [📚 Education](#education) • [📧 Contact](#contact)
+
+</div>
 
 ---
 
-## Overview
+## 🎯 Professional Summary
 
-A professional portfolio template built with **Next.js 16**, **React 19**, and **Tailwind CSS 4**. Features a modern App Router architecture, server components, and data-driven configuration for easy customization.
-
----
-
-## Demo :movie_camera:
-
-<p align="center">
-  <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
-    <strong>🚀 View Live Demo</strong>
-  </a>
-</p>
+Java Full-Stack & DevOps Engineer skilled in Spring frameworks and the modern Java ecosystem. I build scalable backends, clean APIs, and cloud-ready applications with solid **CI/CD** ⚙️, **Docker** 🐳, **Kubernetes** ☸️, and automation practices. I love solving problems and creating meaningful, high-impact tech 🚀.
 
 ---
 
-## Features :sparkles:
+## 💼 Experience
 
-- ✅ **Cutting-Edge Tech Stack**: Built with Next.js 16, React 19, and Tailwind CSS 4
-- ✅ **Fully Responsive**: Optimized for all devices and screen sizes
-- ✅ **SEO Optimized**: Better visibility on search engines with Next.js metadata API
-- ✅ **Blazing Fast Performance**: Leverages Next.js 16 server components and streaming
-- ✅ **App Router**: Uses the modern Next.js App Router architecture
-- ✅ **Easy Customization**: Simple data-driven configuration
-- ✅ **Contact Form**: Integrated email and Telegram notifications
-- ✅ **Blog Integration**: Automatically fetch posts from dev.to
-- ✅ **Dark Theme**: Beautiful gradient design with Lottie animations
-- ✅ **Docker Support**: Easy containerized deployment
-- ✅ **Google Analytics**: Track visitor insights with GTM support
+### Java Full Stack Developer & DevOps Engineer
+**HCL Technologies Ltd. (Actian) | Bangalore, KA, India**  
+*Feb 2024 - Present*
+
+Working on end-to-end application development and operations, handling the complete lifecycle from code commit to production monitoring. Responsible for backend REST API development, feature implementations, bug fixes, and CI/CD pipelines. Actively working with containerization, orchestration, and observability tools while supporting scalable backend systems.
+
+**Key Technologies:** Java, Spring Boot, REST APIs, SQL, JUnit, Maven, Gradle, Docker, Kubernetes, Jenkins, Grafana, Git
 
 ---
 
-## Next.js 16 Features Used :rocket:
+### Associate Software Engineer
+**Tech Mahindra Ltd. | Bangalore, KA, India**  
+*Aug 2023 - Jan 2024*
 
-This portfolio leverages the latest Next.js 16 and React 19 capabilities:
+Contributed to enterprise applications using both Salesforce and Java-based backend components. Built and customized Salesforce solutions using Apex, Lightning Web Components (LWC), and Flows, while also supporting Java backend services, REST APIs, and database interactions. Actively involved in deployments, testing, and collaborating within an agile team.
 
-| Feature                  | Benefit                                                      |
-| ------------------------ | ------------------------------------------------------------ |
-| **App Router**           | Modern routing with layouts and nested routes                |
-| **Server Components**    | Improved performance with zero JavaScript for static content |
-| **Server Actions**       | Simplified form handling in contact page                     |
-| **Metadata API**         | Enhanced SEO with type-safe metadata                         |
-| **Image Optimization**   | Automatic image optimization with `next/image`               |
-| **Font Optimization**    | Automatic font loading with `next/font`                      |
-| **Streaming & Suspense** | Better loading states and progressive rendering              |
-| **React 19 Features**    | Actions, use hook, and improved hydration                    |
+**Key Technologies:** Salesforce, Apex, Lightning Web Components (LWC), Java, REST APIs, SQL, Linux
 
 ---
 
-## Sections :bookmark:
+### Full Stack Development & Training
+**Multiple Learning Programs | 2019 - 2023**
 
-| Section           | Description                                         |
-| ----------------- | --------------------------------------------------- |
-| 🦸 **Hero**       | Eye-catching introduction with animated elements    |
-| 👤 **About Me**   | Personal information and professional summary       |
-| 💼 **Experience** | Work history and professional accomplishments       |
-| 🛠️ **Skills**     | Technical skills with animated marquee display      |
-| 🚀 **Projects**   | Showcase your best work with descriptions and links |
-| 🎓 **Education**  | Academic background and certifications              |
-| 📝 **Blog**       | Latest articles from dev.to (auto-fetched)          |
-| 📧 **Contact**    | Get in touch form with email/Telegram integration   |
+- **Java & DevOps** - Wipro Java Training Program
+- **Python Development** - CodeTantra
+- **AWS Cloud Services** - Amazon
+- **Machine Learning** - Moutik Technologies
+- **Personal Projects** - Building full-stack applications
 
 ---
 
-## Table of Contents :scroll:
+## 🛠️ Skills
 
-- [Overview](#overview)
-- [Demo](#demo-movie_camera)
-- [Features](#features-sparkles)
-- [Sections](#sections-bookmark)
-- [Tech Stack](#tech-stack-computer)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
-- [Contributing](#contributing-handshake)
-- [License](#license-page_with_curl)
-- [Support](#support-coffee)
+### Backend & Core Programming
+- **Languages:** Java, Python, C, JavaScript
+- **Frameworks:** Spring Boot, Spring Security, Spring MVC, Spring Data JPA
+- **APIs & Web Services:** RESTful APIs, JDBC, Hibernate
 
----
+### Databases & Data
+- PostgreSQL, MySQL, MongoDB
+- JPA/Hibernate ORM
 
-## Tech Stack :computer:
+### DevOps & Infrastructure
+- Docker 🐳 | Kubernetes ☸️ | Jenkins | CI/CD Pipelines
+- Linux System Administration
+- AWS Cloud Services
+- Grafana (Monitoring)
 
-| Technology       | Version | Purpose                                   |
-| ---------------- | ------- | ----------------------------------------- |
-| **Next.js**      | 16.0.1  | React framework with App Router           |
-| **React**        | 19.2.0  | UI component library with latest features |
-| **Tailwind CSS** | 4.x     | Utility-first CSS framework               |
-| **SASS**         | Latest  | CSS preprocessor                          |
-| **Lottie**       | Latest  | Lightweight animations                    |
-| **Nodemailer**   | Latest  | Email sending functionality               |
-| **Axios**        | Latest  | HTTP client for API requests              |
-| **Docker**       | -       | Containerization platform                 |
+### Frontend Development
+- React | HTML | CSS | JavaScript
+
+### Cloud & Enterprise
+- **AWS:** EC2, S3, Lambda, RDS, VPC
+- **Salesforce:** Apex, LWC, Flows, Declarative Tools
+
+### Tools & Platforms
+- Git & Version Control
+- Maven & Gradle (Build Tools)
+- Agile & Scrum
 
 ---
 
-## Installation :arrow_down:
+## 🎓 Education
 
-### Prerequisites
+### Bachelor of Engineering and Technology (B.Tech)
+**Electronics and Communication Engineering**  
+RGMCET (Autonomous) | Nandyal, AP, India | 2019 - 2023  
+**Grade:** First Class with Distinction
 
-Before you begin, ensure you have the following installed on your machine:
+### Intermediate (Class 12) - BIEAP
+**Sri Satya Sai Junior College** | Anantapur, AP | 2017 - 2019
 
-| Tool                   | Minimum Version | Download Link                               |
-| ---------------------- | --------------- | ------------------------------------------- |
-| **Node.js**            | v18.17.0+       | [Download](https://nodejs.org/en/download/) |
-| **Git**                | Latest          | [Download](https://git-scm.com/downloads)   |
-| **pnpm** (recommended) | Latest          | [Install](https://pnpm.io/installation)     |
-
-> **Note**: Next.js 16 requires Node.js 18.17 or later. Node.js 20+ is recommended for optimal performance.
-
-#### Verify Installation
-
-Check your installations with these commands:
-
-```bash
-node --version
-git --version
-pnpm --version  # or npm --version
-```
+### Secondary School Certificate (Class 10) - SSC
+**Kadhri High School** | Kadiri, Anantapur, AP | 2007 - 2017
 
 ---
 
-## Getting Started :dart:
+## 💪 Key Strengths
 
-### 1. Fork and Clone the Repository
-
-```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/developer-portfolio.git
-cd developer-portfolio
-```
-
-### 2. Install Dependencies
-
-```bash
-# Using pnpm (recommended)
-pnpm install
-
-# Using npm
-npm install
-
-# Using yarn
-yarn install
-```
-
-### 3. Set Up Environment Variables
-
-```bash
-cp .env.example .env
-```
-
-Edit the `.env` file with your values (see [Usage](#usage-joystick) section).
-
-### 4. Run the Development Server
-
-```bash
-pnpm dev
-# or
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+- ✅ **Hard Worker** - Dedicated to delivering quality work
+- ✅ **Quick Learner** - Fast adoption of new technologies
+- ✅ **Problem Solver** - Creative solutions to complex challenges
+- ✅ **Full Stack Capability** - Backend, DevOps, and some frontend expertise
+- ✅ **Cloud & Containerization** - AWS, Docker, Kubernetes proficiency
 
 ---
 
-### 🐳 Docker Deployment (Alternative)
+## 📊 Portfolio
 
-#### Option 1: Using Docker Compose (Recommended)
+This modern portfolio website showcases my work, projects, experience, and expertise. It's built with cutting-edge technologies for performance, SEO, and user experience.
 
-```bash
-docker-compose up --build
-
-# Run in detached mode
-docker-compose up -d --build
-
-# Stop
-docker-compose down
-```
-
-#### Option 2: Using Docker Directly
-
-**For Development:**
-
-```bash
-# Build the development image
-docker build -t developer-portfolio:dev -f Dockerfile.dev .
-
-# Run the container
-docker run -p 3000:3000 --name portfolio-dev developer-portfolio:dev
-
-# Stop and remove container
-docker stop portfolio-dev && docker rm portfolio-dev
-```
-
-**For Production:**
-
-```bash
-# Build the production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run the production container
-docker run -p 3000:3000 --name portfolio-prod developer-portfolio:prod
-```
+**Portfolio Features:**
+- 🎨 Modern, responsive design with dark theme
+- ⚡ High performance with Next.js 16 & React 19
+- 🎭 Animated sections with Lottie animations
+- 📱 Mobile-first responsive layout
+- 📧 Contact form with email & Telegram integration
+- 📝 Blog integration from dev.to
+- 🔍 SEO optimized with metadata API
+- 🐳 Docker support for easy deployment
+- 📊 Google Analytics integration with GTM
+- 🌙 Beautiful UI with Tailwind CSS 4
 
 ---
 
-## Usage :joystick:
+## 📞 Contact
 
-### Environment Variables Configuration
+<div align="center">
 
-Create a `.env` file in the root directory with the following variables:
+📧 **Email:** [programmer143143@gmail.com](mailto:programmer143143@gmail.com)  
+📱 **Phone:** +91 XXXXX XXXXX  
+📍 **Location:** Bangalore, India
 
-```env
-# Google Tag Manager (Optional - for analytics)
-NEXT_PUBLIC_GTM=GTM-XXXXXXX
+### Connect With Me
 
-# Your deployed app URL
-NEXT_PUBLIC_APP_URL=https://your-domain.com
+[![GitHub](https://img.shields.io/badge/GitHub-11KAlYAN11-black?style=flat-square&logo=github)](https://github.com/11KAlYAN11)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Asam%20Pavan%20Kumar%20Reddy-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/asam-pavan-kumar-reddy/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-11KAlYAN11-FFA500?style=flat-square&logo=leetcode)](https://leetcode.com/11KAlYAN11)
+[![Twitter](https://img.shields.io/badge/Twitter-@xxxx-1DA1F2?style=flat-square&logo=twitter)](https://twitter.com/xxxx)
 
-# Telegram Bot Configuration (for contact form notifications)
-TELEGRAM_BOT_TOKEN=your_bot_token_here
-TELEGRAM_CHAT_ID=your_chat_id_here
-
-# Gmail Configuration (for contact form emails)
-GMAIL_PASSKEY=your_gmail_app_password
-EMAIL_ADDRESS=your_email@gmail.com
-```
-
-#### Variable Descriptions:
-
-| Variable              | Required | Description                                  |
-| --------------------- | -------- | -------------------------------------------- |
-| `NEXT_PUBLIC_GTM`     | No       | Google Tag Manager ID for analytics tracking |
-| `NEXT_PUBLIC_APP_URL` | Yes      | Your portfolio's public URL                  |
-| `TELEGRAM_BOT_TOKEN`  | No       | Token for Telegram bot notifications         |
-| `TELEGRAM_CHAT_ID`    | No       | Your Telegram chat ID for receiving messages |
-| `GMAIL_PASSKEY`       | No       | Gmail app password for email notifications   |
-| `EMAIL_ADDRESS`       | No       | Your Gmail address for sending emails        |
-
-> **Note**: Contact form features require either Telegram or Gmail configuration (or both).
+</div>
 
 ---
 
-### Customize Your Portfolio Data
+## 📋 Table of Contents
 
-All portfolio content is managed through data files in the `utils/data/` folder:
-
-#### 📝 Personal Information (`personal-data.js`)
-
-```javascript
-export const personalData = {
-  name: "YOUR NAME",
-  profile: "/profile.png", // Path to your profile image
-  designation: "Software Developer", // Your job title
-  description: "Your bio and introduction...", // About yourself
-  email: "your.email@example.com",
-  phone: "+1234567890",
-  address: "City, Country",
-  github: "https://github.com/yourusername",
-  facebook: "https://www.facebook.com/yourprofile",
-  linkedIn: "https://www.linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourusername",
-  stackOverflow: "https://stackoverflow.com/users/your-id",
-  leetcode: "https://leetcode.com/yourusername/",
-  devUsername: "yourusername", // dev.to username for blog integration
-  resume: "https://link-to-your-resume.pdf",
-};
-```
-
-#### 💼 Additional Data Files
-
-| File               | Purpose                                        |
-| ------------------ | ---------------------------------------------- |
-| `experience.js`    | Your work experience and job history           |
-| `projects-data.js` | Portfolio projects with descriptions and links |
-| `skills.js`        | Technical skills and competencies              |
-| `educations.js`    | Academic background and certifications         |
-| `contactsData.js`  | Contact form configuration                     |
-
-#### 🎨 Adding Your Profile Image
-
-Place your profile picture in the `public/` directory and update the `profile` field in `personal-data.js`:
-
-```javascript
-profile: "/your-image-name.png"; // or .jpg, .webp
-```
+- [Professional Summary](#-professional-summary)
+- [Experience](#-experience)
+- [Skills](#️-skills)
+- [Education](#-education)
+- [Key Strengths](#-key-strengths)
+- [Portfolio Features](#-portfolio)
+- [Contact](#-contact)
 
 ---
 
-## Deployment :rocket:
+<div align="center">
 
-### 🚀 Deploy to Vercel (Recommended)
+**Made with ❤️ by Asam Pavan Kumar Reddy**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/said7388/developer-portfolio)
+*Last Updated: April 2026*
 
-**Manual Deployment:**
-
-1. Sign up at [Vercel](https://vercel.com/)
-2. Import your GitHub repository
-3. Add environment variables in **Settings** → **Environment Variables**
-4. Deploy
-
-**Features:**
-
-- Native Next.js 16 support
-- Automatic deployments on push
-- Preview deployments for PRs
-- Edge runtime support
-- Global CDN and free SSL
-
----
-
-### 🌐 Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/said7388/developer-portfolio)
-
-**Manual Deployment:**
-
-1. Sign up at [Netlify](https://www.netlify.com/)
-2. Import your GitHub repository
-3. Build command: `npm run build`
-4. Publish directory: `.next`
-5. Add environment variables in **Site Settings** → **Environment**
-
----
-
-### 🐳 Deploy with Docker
-
-```bash
-# Build production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run
-docker run -d -p 80:3000 --name portfolio developer-portfolio:prod
-
-# Or use Docker Compose
-docker-compose -f docker-compose.prod.yml up -d
-```
-
----
-
-## Tutorials :wrench:
-
-### 📧 Gmail App Password Setup
-
-1. Go to [https://myaccount.google.com/](https://myaccount.google.com/)
-2. Navigate to **Security** → **2-Step Verification** (enable if not already)
-3. Go to **Security** → **App Passwords**
-4. Select app: **Mail**, device: **Other (Custom name)**
-5. Generate and copy the 16-character password
-6. Add to `.env` file:
-
-```env
-GMAIL_PASSKEY=abcd efgh ijkl mnop
-EMAIL_ADDRESS=your.email@gmail.com
-```
-
----
-
-### 🤖 Create a Telegram Bot
-
-1. Open Telegram and search for `@BotFather`
-2. Send `/newbot` command
-3. Set bot name and username (must end with `bot`)
-4. Copy the bot token
-5. Send a message to your bot
-6. Get chat ID from: `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-7. Add to `.env` file:
-
-```env
-TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
-TELEGRAM_CHAT_ID=123456789
-```
-
----
-
-### 📝 Fetching Blog from dev.to
-
-1. Create a [dev.to](https://dev.to/) account
-2. Open `utils/data/personal-data.js`
-3. Set your dev.to username:
-
-```javascript
-export const personalData = {
-  // ... other fields
-  devUsername: "yourusername",
-};
-```
-
-The portfolio automatically fetches and displays your latest public articles. No API key required.
-
----
-
-## Packages Used :package:
-
-### Core Dependencies
-
-| Package         | Version | Purpose                                                      |
-| --------------- | ------- | ------------------------------------------------------------ |
-| **next**        | ^16.0.1 | Latest React framework with App Router and Server Components |
-| **react**       | ^19.2.0 | JavaScript library with improved concurrent rendering        |
-| **react-dom**   | ^19.2.0 | React package for working with the DOM                       |
-| **tailwindcss** | ^4.1.16 | Modern utility-first CSS framework                           |
-| **sass**        | Latest  | CSS preprocessor for styling                                 |
-
-### UI & Animations
-
-| Package                | Purpose                                    |
-| ---------------------- | ------------------------------------------ |
-| **lottie-react**       | Lightweight animations with Lottie files   |
-| **react-fast-marquee** | Smooth scrolling marquee component         |
-| **react-icons**        | Popular icon library with easy integration |
-| **react-toastify**     | Beautiful notification toasts              |
-
-### Functionality
-
-| Package                    | Purpose                           |
-| -------------------------- | --------------------------------- |
-| **axios**                  | Promise-based HTTP client         |
-| **nodemailer**             | Email sending functionality       |
-| **@emailjs/browser**       | Client-side email service         |
-| **react-google-recaptcha** | Google reCAPTCHA integration      |
-| **sharp**                  | High-performance image processing |
-| **@next/third-parties**    | Third-party script optimization   |
-
----
-
-## Troubleshooting :wrench:
-
-### Common Issues and Solutions
-
-<details>
-<summary><strong>❌ "next is not recognized as an internal or external command"</strong></summary>
-
-**Solution:**
-
-```bash
-# Option 1: Install Next.js globally
-npm install -g next
-
-# Option 2: Use npx (recommended)
-npx next dev
-
-# Option 3: Use package manager scripts
-npm run dev
-```
-
-</details>
-
-<details>
-<summary><strong>❌ Port 3000 is already in use</strong></summary>
-
-**Solution:**
-
-```bash
-# Find and kill the process using port 3000
-# On macOS/Linux:
-lsof -ti:3000 | xargs kill -9
-
-# On Windows:
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-
-# Or use a different port:
-PORT=3001 npm run dev
-```
-
-</details>
-
-<details>
-<summary><strong>❌ Module not found or dependency errors</strong></summary>
-
-**Solution:**
-
-```bash
-# Clear cache and reinstall dependencies
-rm -rf node_modules package-lock.json
-npm cache clean --force
-npm install
-
-# Or with pnpm:
-rm -rf node_modules pnpm-lock.yaml
-pnpm store prune
-pnpm install
-```
-
-</details>
-
-<details>
-<summary><strong>❌ Environment variables not working</strong></summary>
-
-**Solution:**
-
-- Ensure `.env` file is in the root directory
-- Restart the development server after changing `.env`
-- Check that variables starting with `NEXT_PUBLIC_` are used for client-side code
-- Server-side variables should NOT start with `NEXT_PUBLIC_`
-
-</details>
-
-<details>
-<summary><strong>❌ Images not loading</strong></summary>
-
-**Solution:**
-
-- Verify images are in the `public/` directory
-- Use paths starting with `/` (e.g., `/profile.png`)
-- Check image file extensions match the code
-- Ensure image files are committed to your repository
-
-</details>
-
-<details>
-<summary><strong>❌ Contact form not sending emails</strong></summary>
-
-**Solution:**
-
-- Verify Gmail App Password is correct (16 characters)
-- Check that 2-Step Verification is enabled on your Google account
-- Ensure `EMAIL_ADDRESS` matches the Gmail account
-- Test Telegram bot token and chat ID separately
-- Check browser console for error messages
-
-</details>
-
----
-
-## Contributing :handshake:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
-
----
-
-## License :page_with_curl:
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Support :coffee:
-
-- ⭐ [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
-- � [Report bugs](https://github.com/said7388/developer-portfolio/issues)
-- � [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
-
----
-
-![GitHub stars](https://img.shields.io/github/stars/said7388/developer-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
-![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)
+</div>
