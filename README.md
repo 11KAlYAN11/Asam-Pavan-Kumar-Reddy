@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### Java Full Stack Developer & DevOps Engineer
+### Java Full Stack Developer & DevOps Engineer | AI Native Java Developer | Gen AI backend dev
 
 <p>
   <img src="https://img.shields.io/badge/Java-Full%20Stack-orange?style=for-the-badge&logo=java" alt="Java Full Stack">
