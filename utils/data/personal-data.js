@@ -4,12 +4,14 @@ export const personalData = {
   designation: "Gen AI-Native Java Full Stack Developer",
   description: "Gen AI-native Java Full Stack & DevOps Engineer with 4+ years of experience building enterprise-grade Spring Boot microservices, React/Angular frontends, and automated CI/CD pipelines. I ship AI-agent and MCP-style integrations on top of Java backends — from an AI-powered task manager to an AI fleet reassignment engine built on Groq Llama 3.3 70B — and lean on GitHub Copilot, Cursor, Claude, and n8n ⚙️ to move faster without cutting corners on Docker 🐳, Kubernetes ☸️, and observability 🚀.",
   email: 'programmer143143@gmail.com',
-  phone: '+91 7569909956',
+  // Middle digits masked to cut down on scraper/spam bots picking up the number from the page.
+  phone: '+91 7569XXX956',
   address: 'Bangalore, India',
   github: 'https://github.com/11KAlYAN11',
   linkedIn: 'https://www.linkedin.com/in/asam-pavan-kumar-reddy/',
   stackOverflow: 'https://github.com/11KAlYAN11',
-  leetcode: "https://leetcode.com/11KAlYAN11",
+  leetcode: "https://leetcode.com/u/AsamPavanKumarReddy/",
+  geeksforgeeks: "https://www.geeksforgeeks.org/profile/programmer143143",
   devUsername: "11KAlYAN11",
   // Drop your resume PDF at public/resume.pdf (exact filename) — the Get Resume button
   // downloads directly from this path, no other code changes needed.

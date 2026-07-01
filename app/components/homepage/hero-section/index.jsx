@@ -6,7 +6,7 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 import Reveal from "../../helper/reveal";
 
 function HeroSection() {
@@ -54,6 +54,13 @@ function HeroSection() {
               className="transition-all text-fuchsia-400 hover:text-lime-400 hover:scale-125 hover:-rotate-6 duration-300"
             >
               <SiLeetcode size={30} />
+            </Link>
+            <Link
+              href={personalData.geeksforgeeks}
+              target="_blank"
+              className="transition-all text-fuchsia-400 hover:text-lime-400 hover:scale-125 hover:-rotate-6 duration-300"
+            >
+              <SiGeeksforgeeks size={30} />
             </Link>
           </div>
 

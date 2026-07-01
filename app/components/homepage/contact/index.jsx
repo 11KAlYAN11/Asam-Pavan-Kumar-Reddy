@@ -6,6 +6,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaStackOverflow } from 'react-icons/fa';
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
+import { SiGeeksforgeeks } from "react-icons/si";
 import Reveal from '../../helper/reveal';
 import ContactForm from './contact-form';
 
@@ -67,6 +68,12 @@ function ContactSection() {
             </Link>
             <Link target="_blank" href={personalData.stackOverflow}>
               <FaStackOverflow
+                className="bg-[#8b98a5] p-3 rounded-full hover:bg-lime-400 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={48}
+              />
+            </Link>
+            <Link target="_blank" href={personalData.geeksforgeeks}>
+              <SiGeeksforgeeks
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-lime-400 hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
