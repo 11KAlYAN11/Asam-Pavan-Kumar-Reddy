@@ -7,6 +7,7 @@ export const skillsData = [
   'Spring MVC',
   'JavaScript',
   'React',
+  'Angular',
   'HTML',
   'CSS',
   'PostgreSQL',
@@ -21,11 +22,12 @@ export const skillsData = [
   'Kubernetes',
   'Jenkins',
   'Grafana',
-  'Linux',
   'CI/CD',
   'AWS',
   'Salesforce',
   'Apex',
+  'Gen AI',
+  'AI Agents',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

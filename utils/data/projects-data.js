@@ -44,6 +44,24 @@ export const projectsData = [
     },
     {
         id: 3,
+        name: 'Zycus Hackathon — Gen AI Project',
+        description: "Built a Gen AI-powered prototype at the Zycus Hackathon, pairing an LLM with a Java Spring Boot backend to automate a real internal workflow.",
+        tools: [
+            'Java',
+            'Spring Boot',
+            'Gen AI',
+            'LLM Integration',
+            'Prompt Engineering',
+            'REST APIs'
+        ],
+        role: 'Gen AI Developer',
+        code: '',
+        demo: '',
+    },
+    // TODO: replace the description/tools above with the exact Zycus Hackathon project name,
+    // model/API used, and outcome (recognition/offer) once finalized.
+    {
+        id: 4,
         name: 'Full Stack Personal Projects Suite',
         description: "A collection of self-driven full stack applications built to explore and master multiple web technologies and architectures. Projects include MERN and MEAN stack applications, task management and to-do systems, typing practice web apps, and backend services using Spring ORM with RESTful APIs. Focused on clean architecture, API design, authentication flows, and seamless frontend–backend integration using modern frameworks.",
         tools: [

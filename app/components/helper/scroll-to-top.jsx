@@ -1,22 +1,17 @@
 "use client";
 
+import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa6";
 
-const DEFAULT_BTN_CLS =
-  "fixed bottom-8 right-6 z-50 flex items-center rounded-full bg-gradient-to-r from-pink-500 to-violet-600 p-4 hover:text-xl transition-all duration-300 ease-out";
 const SCROLL_THRESHOLD = 50;
 
 const ScrollToTop = () => {
-  const [btnCls, setBtnCls] = useState(DEFAULT_BTN_CLS);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > SCROLL_THRESHOLD) {
-        setBtnCls(DEFAULT_BTN_CLS.replace(" hidden", ""));
-      } else {
-        setBtnCls(DEFAULT_BTN_CLS + " hidden");
-      }
+      setVisible(window.scrollY > SCROLL_THRESHOLD);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
@@ -27,9 +22,22 @@ const ScrollToTop = () => {
   const onClickBtn = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-    <button className={btnCls} onClick={onClickBtn}>
-      <FaArrowUp />
-    </button>
+    <AnimatePresence>
+      {visible && (
+        <motion.button
+          initial={{ opacity: 0, scale: 0.5, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          exit={{ opacity: 0, scale: 0.5, y: 20 }}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 20 }}
+          className="fixed bottom-8 right-6 z-50 flex items-center rounded-full bg-gradient-to-r from-fuchsia-500 to-lime-400 p-4 text-[#0d1224] shadow-lg shadow-fuchsia-500/30"
+          onClick={onClickBtn}
+        >
+          <FaArrowUp />
+        </motion.button>
+      )}
+    </AnimatePresence>
   );
 };
 

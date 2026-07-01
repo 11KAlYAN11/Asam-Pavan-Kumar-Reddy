@@ -35,3 +35,43 @@ body {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+
+.blink::after {
+  content: "_";
+  color: #e879f9;
+  animation: blink-cursor 1s step-end infinite;
+}
+
+@keyframes blink-cursor {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes float-orb {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(15px, -20px) scale(1.08);
+  }
+}
+
+.floating-orb {
+  animation: float-orb 8s ease-in-out infinite;
+}
+
+.floating-orb-slow {
+  animation: float-orb 12s ease-in-out infinite;
+  animation-delay: -3s;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #e879f9, #a3e635);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
