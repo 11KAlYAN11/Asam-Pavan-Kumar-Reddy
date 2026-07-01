@@ -13,9 +13,9 @@ export const personalData = {
   leetcode: "https://leetcode.com/u/AsamPavanKumarReddy/",
   geeksforgeeks: "https://www.geeksforgeeks.org/profile/programmer143143",
   devUsername: "11KAlYAN11",
-  // Drop your resume PDF at public/resume.pdf (exact filename) — the Get Resume button
-  // downloads directly from this path, no other code changes needed.
-  resume: "/resume.pdf",
+  // Points at public/Resume/Pavan_Resume_GenAI_1ST.pdf — update this path if you
+  // rename/replace the file (case-sensitive on real hosting, unlike Windows).
+  resume: "/Resume/Pavan_Resume_GenAI_1ST.pdf",
   heroCoder: {
     skills: [
       'Java',
