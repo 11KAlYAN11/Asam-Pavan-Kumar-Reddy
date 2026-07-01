@@ -2,7 +2,7 @@ export const personalData = {
   name: "Asam Pavan Kumar Reddy",
   profile: '/image/profile.png',
   designation: "Gen AI-Native Java Full Stack Developer",
-  description: "Gen AI-native Java Full Stack & DevOps Engineer with 3.8 years of experience building enterprise-grade Spring Boot microservices, React/Angular frontends, and automated CI/CD pipelines. Recognized at the Zycus Hackathon for a Gen AI build. I ship AI-agent and MCP-style integrations on top of Java backends, and lean on GitHub Copilot, Cursor, Claude, and n8n ⚙️ to move faster without cutting corners on Docker 🐳, Kubernetes ☸️, and observability 🚀.",
+  description: "Gen AI-native Java Full Stack & DevOps Engineer with 4+ years of experience building enterprise-grade Spring Boot microservices, React/Angular frontends, and automated CI/CD pipelines. I ship AI-agent and MCP-style integrations on top of Java backends — from an AI-powered task manager to an AI fleet reassignment engine built on Groq Llama 3.3 70B — and lean on GitHub Copilot, Cursor, Claude, and n8n ⚙️ to move faster without cutting corners on Docker 🐳, Kubernetes ☸️, and observability 🚀.",
   email: 'programmer143143@gmail.com',
   phone: '+91 7569909956',
   address: 'Bangalore, India',
@@ -11,13 +11,18 @@ export const personalData = {
   stackOverflow: 'https://github.com/11KAlYAN11',
   leetcode: "https://leetcode.com/11KAlYAN11",
   devUsername: "11KAlYAN11",
-  // TODO: point this at your final resume PDF once ready, e.g. resume: '/resume.pdf'
-  resume: "https://github.com/11KAlYAN11",
+  // Drop your resume PDF at public/resume.pdf (exact filename) — the Get Resume button
+  // downloads directly from this path, no other code changes needed.
+  resume: "/resume.pdf",
   heroCoder: {
     skills: [
       'Java',
       'Spring Boot',
       'Gen AI',
+      'Prompt Engineering',
+      'Cursor',
+      'GitHub Copilot',
+      'ChatGPT',
       'DevOps',
       'Kubernetes',
       'AWS',

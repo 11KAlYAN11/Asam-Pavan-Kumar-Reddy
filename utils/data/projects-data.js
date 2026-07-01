@@ -44,24 +44,62 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'Zycus Hackathon — Gen AI Project',
-        description: "Built a Gen AI-powered prototype at the Zycus Hackathon, pairing an LLM with a Java Spring Boot backend to automate a real internal workflow.",
+        name: 'AI-Powered Advanced Task Manager',
+        description: "A Jira-style full-stack task platform with Spring Boot REST APIs, React UI, and JWT-based role auth — architected for AI-driven MCP-style agent integrations that let AI assistants create, update, and manage tasks directly.",
         tools: [
             'Java',
             'Spring Boot',
-            'Gen AI',
-            'LLM Integration',
-            'Prompt Engineering',
-            'REST APIs'
+            'React',
+            'JWT',
+            'MCP',
+            'AI Agents',
+            'AWS',
+            'Docker'
         ],
-        role: 'Gen AI Developer',
+        role: 'Full Stack Developer',
+        code: 'https://github.com/11KAlYAN11/advtaskmanager',
+        demo: '',
+    },
+    {
+        id: 4,
+        name: 'AI Fleet Reassignment Engine — Intelligent Delivery Operations Platform',
+        description: "An agentic delivery operations platform that detects delivery agent failures in real time and autonomously generates confidence-ranked reassignment recommendations using Groq Llama 3.3 70B, reducing manual intervention through an event-driven recovery workflow.",
+        tools: [
+            'Java 17',
+            'Spring Boot 3',
+            'React 18',
+            'PostgreSQL',
+            'Groq Llama 3.3',
+            'AI Agents',
+            'Agentic AI',
+            'Strategy Pattern',
+            'Railway',
+            'Vercel'
+        ],
+        role: 'Full Stack Developer',
+        // TODO: add the repo URL here once ready, e.g. code: 'https://github.com/11KAlYAN11/ai-fleet-reassignment'
         code: '',
         demo: '',
     },
-    // TODO: replace the description/tools above with the exact Zycus Hackathon project name,
-    // model/API used, and outcome (recognition/offer) once finalized.
     {
-        id: 4,
+        id: 5,
+        name: 'Spring Boot CRUD & MCP Repos',
+        description: "A growing set of open-source Spring Boot REST/CRUD API repos, several extended with MCP-style tool integrations so AI agents can call real backend operations directly.",
+        tools: [
+            'Java',
+            'Spring Boot',
+            'REST APIs',
+            'MCP',
+            'AI Agents',
+            'PostgreSQL',
+            'MySQL'
+        ],
+        role: 'Backend Developer',
+        code: 'https://github.com/11KAlYAN11?tab=repositories',
+        demo: '',
+    },
+    {
+        id: 6,
         name: 'Full Stack Personal Projects Suite',
         description: "A collection of self-driven full stack applications built to explore and master multiple web technologies and architectures. Projects include MERN and MEAN stack applications, task management and to-do systems, typing practice web apps, and backend services using Spring ORM with RESTful APIs. Focused on clean architecture, API design, authentication flows, and seamless frontend–backend integration using modern frameworks.",
         tools: [

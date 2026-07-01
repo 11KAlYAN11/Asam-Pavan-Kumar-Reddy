@@ -10,7 +10,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className="text-lime-400 text-3xl font-bold transition-all duration-300 hover:text-fuchsia-400 hover:tracking-wide">
+            className="font-display text-fuchsia-400 text-3xl font-bold transition-all duration-300 hover:text-lime-400 hover:tracking-wide">
             {personalData.name.split(" ")[0]}
           </Link>
         </div>

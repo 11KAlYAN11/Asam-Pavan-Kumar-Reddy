@@ -87,6 +87,22 @@ import grafana from '../app/assets/svg/skills/grafana.svg';
 import salesforce from '../app/assets/svg/skills/salesforce.svg';
 import apex from '../app/assets/svg/skills/apex.svg';
 
+import { SiOpenai } from 'react-icons/si';
+import { TbBrandGithubCopilot } from 'react-icons/tb';
+
+// Skills without a static SVG asset but with a real react-icons brand icon.
+export const skillsReactIcon = (skill) => {
+  const skillID = skill.toLowerCase().replace(/\s+/g, ' ').trim();
+  switch (skillID) {
+    case 'chatgpt':
+      return SiOpenai;
+    case 'github copilot':
+      return TbBrandGithubCopilot;
+    default:
+      return null;
+  }
+};
+
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase().replace(/\s+/g, ' ').trim();

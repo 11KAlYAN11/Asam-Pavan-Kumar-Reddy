@@ -10,7 +10,7 @@ import Reveal from "../../helper/reveal";
 
 function Experience() {
   return (
-    <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="experience" className="relative z-50 border-t my-8 lg:my-14 border-[#25213b]">
       <Image
         src="/section.svg"
         alt="Hero"
@@ -22,7 +22,7 @@ function Experience() {
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#2a1330]"></span>
-          <span className="bg-[#2a1330] w-fit text-white p-2 px-5 text-xl rounded-md">
+          <span className="bg-[#2a1330] w-fit text-white p-2 px-5 text-xl rounded-md font-display tracking-wide">
             Experiences
           </span>
           <span className="w-24 h-[2px] bg-[#2a1330]"></span>
@@ -69,6 +69,11 @@ function Experience() {
                             </p>
                           </div>
                         </div>
+                        {experience.description && (
+                          <p className="px-3 pb-4 text-sm text-gray-300 leading-relaxed">
+                            {experience.description}
+                          </p>
+                        )}
                       </div>
                     </GlowCard>
                   </Reveal>

@@ -28,6 +28,11 @@ export const skillsData = [
   'Apex',
   'Gen AI',
   'AI Agents',
+  'Groq',
+  'Prompt Engineering',
+  'Cursor',
+  'GitHub Copilot',
+  'ChatGPT',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

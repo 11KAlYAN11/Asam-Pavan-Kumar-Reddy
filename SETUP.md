@@ -249,16 +249,13 @@ Create a `.env` file in the root directory with the following variables:
 # Google Tag Manager (Optional - for analytics)
 NEXT_PUBLIC_GTM=GTM-XXXXXXX
 
-# Your deployed app URL
-NEXT_PUBLIC_APP_URL=https://your-domain.com
-
-# Telegram Bot Configuration (for contact form notifications)
-TELEGRAM_BOT_TOKEN=your_bot_token_here
-TELEGRAM_CHAT_ID=your_chat_id_here
-
-# Gmail Configuration (for contact form emails)
+# Gmail Configuration (required for the contact form to send email)
 GMAIL_PASSKEY=your_gmail_app_password
 EMAIL_ADDRESS=your_email@gmail.com
+
+# Telegram Bot Configuration (optional bonus notification)
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+TELEGRAM_CHAT_ID=your_chat_id_here
 ```
 
 #### Variable Descriptions:
@@ -266,13 +263,12 @@ EMAIL_ADDRESS=your_email@gmail.com
 | Variable              | Required | Description                                  |
 | --------------------- | -------- | -------------------------------------------- |
 | `NEXT_PUBLIC_GTM`     | No       | Google Tag Manager ID for analytics tracking |
-| `NEXT_PUBLIC_APP_URL` | Yes      | Your portfolio's public URL                  |
+| `GMAIL_PASSKEY`       | Yes      | Gmail app password for email notifications   |
+| `EMAIL_ADDRESS`       | Yes      | Your Gmail address for sending emails        |
 | `TELEGRAM_BOT_TOKEN`  | No       | Token for Telegram bot notifications         |
 | `TELEGRAM_CHAT_ID`    | No       | Your Telegram chat ID for receiving messages |
-| `GMAIL_PASSKEY`       | No       | Gmail app password for email notifications   |
-| `EMAIL_ADDRESS`       | No       | Your Gmail address for sending emails        |
 
-> **Note**: Contact form features require either Telegram or Gmail configuration (or both).
+> **Note**: `GMAIL_PASSKEY` must be a Gmail [App Password](https://myaccount.google.com/apppasswords), not your regular password — it requires 2-Step Verification enabled on the account. Telegram is optional and only sends a bonus notification; email works independently of it.
 
 ---
 

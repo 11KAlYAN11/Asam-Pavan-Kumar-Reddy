@@ -33,7 +33,7 @@ body {
 
 .sticky-card {
   // padding-top: calc(var(--index) * 2.5rem);
-  top: calc(var(--index) * 4rem);
+  top: calc(var(--index) * 3rem);
 }
 
 .blink::after {
@@ -71,6 +71,17 @@ body {
 
 .gradient-text {
   background: linear-gradient(90deg, #e879f9, #a3e635);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+.gradient-text-alt {
+  background: linear-gradient(90deg, #e879f9, #c084fc);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

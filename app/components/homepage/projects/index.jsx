@@ -5,20 +5,20 @@ import ProjectCard from './project-card';
 const Projects = () => {
 
   return (
-    <div id='projects' className="relative z-50  my-12 lg:my-24">
+    <div id='projects' className="relative z-50  my-8 lg:my-14">
       <div className="sticky top-10">
         <div className="w-[80px] h-[80px] bg-fuchsia-500 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30 floating-orb-slow"></div>
         <div className="flex items-center justify-start relative">
-          <span className="bg-[#2a1330] absolute left-0  w-fit text-white px-5 py-3 text-xl rounded-md">
+          <span className="bg-[#2a1330] absolute left-0  w-fit text-white px-5 py-3 text-xl rounded-md font-display tracking-wide">
             PROJECTS
           </span>
           <span className="w-full h-[2px] bg-[#2a1330]"></span>
         </div>
       </div>
 
-      <div className="pt-24">
+      <div className="pt-14">
         <div className="flex flex-col gap-6">
-          {projectsData.slice(0, 4).map((project, index) => (
+          {projectsData.slice(0, 6).map((project, index) => (
             <div
               id={`sticky-card-${index + 1}`}
               key={index}

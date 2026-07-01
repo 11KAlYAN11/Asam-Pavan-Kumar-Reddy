@@ -7,14 +7,14 @@ const transporter = nodemailer.createTransport({
   service: 'gmail',
   host: 'smtp.gmail.com',
   port: 587,
-  secure: false, 
+  secure: false,
   auth: {
     user: process.env.EMAIL_ADDRESS,
-    pass: process.env.GMAIL_PASSKEY, 
+    pass: process.env.GMAIL_PASSKEY,
   },
 });
 
-// Helper function to send a message via Telegram
+// Helper function to send a message via Telegram (best-effort, optional)
 async function sendTelegramMessage(token, chat_id, message) {
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
   try {
@@ -33,11 +33,11 @@ async function sendTelegramMessage(token, chat_id, message) {
 const generateEmailTemplate = (name, email, userMessage) => `
   <div style="font-family: Arial, sans-serif; color: #333; padding: 20px; background-color: #f4f4f4;">
     <div style="max-width: 600px; margin: auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
-      <h2 style="color: #007BFF;">New Message Received</h2>
+      <h2 style="color: #d946ef;">New Message Received</h2>
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Message:</strong></p>
-      <blockquote style="border-left: 4px solid #007BFF; padding-left: 10px; margin-left: 0;">
+      <blockquote style="border-left: 4px solid #d946ef; padding-left: 10px; margin-left: 0;">
         ${userMessage}
       </blockquote>
       <p style="font-size: 12px; color: #888;">Click reply to respond to the sender.</p>
@@ -48,59 +48,64 @@ const generateEmailTemplate = (name, email, userMessage) => `
 // Helper function to send an email via Nodemailer
 async function sendEmail(payload, message) {
   const { name, email, message: userMessage } = payload;
-  
+
   const mailOptions = {
-    from: "Portfolio", 
-    to: process.env.EMAIL_ADDRESS, 
-    subject: `New Message From ${name}`, 
-    text: message, 
-    html: generateEmailTemplate(name, email, userMessage), 
-    replyTo: email, 
+    from: "Portfolio",
+    to: process.env.EMAIL_ADDRESS,
+    subject: `New Message From ${name}`,
+    text: message,
+    html: generateEmailTemplate(name, email, userMessage),
+    replyTo: email,
   };
-  
-  try {
-    await transporter.sendMail(mailOptions);
-    return true;
-  } catch (error) {
-    console.error('Error while sending email:', error.message);
-    return false;
-  }
+
+  await transporter.sendMail(mailOptions);
 };
 
 export async function POST(request) {
   try {
     const payload = await request.json();
     const { name, email, message: userMessage } = payload;
-    const token = process.env.TELEGRAM_BOT_TOKEN;
-    const chat_id = process.env.TELEGRAM_CHAT_ID;
 
-    // Validate environment variables
-    if (!token || !chat_id) {
+    if (!name || !email || !userMessage) {
       return NextResponse.json({
         success: false,
-        message: 'Telegram token or chat ID is missing.',
+        message: 'Name, email, and message are required.',
       }, { status: 400 });
+    }
+
+    if (!process.env.EMAIL_ADDRESS || !process.env.GMAIL_PASSKEY) {
+      console.error('Contact form: EMAIL_ADDRESS or GMAIL_PASSKEY is not configured.');
+      return NextResponse.json({
+        success: false,
+        message: 'Email is not configured on the server yet.',
+      }, { status: 500 });
     }
 
     const message = `New message from ${name}\n\nEmail: ${email}\n\nMessage:\n\n${userMessage}\n\n`;
 
-    // Send Telegram message
-    const telegramSuccess = await sendTelegramMessage(token, chat_id, message);
-
-    // Send email
-    const emailSuccess = await sendEmail(payload, message);
-
-    if (telegramSuccess && emailSuccess) {
+    // Email is the primary channel and must succeed.
+    try {
+      await sendEmail(payload, message);
+    } catch (error) {
+      console.error('Error while sending email:', error.message);
       return NextResponse.json({
-        success: true,
-        message: 'Message and email sent successfully!',
-      }, { status: 200 });
+        success: false,
+        message: 'Failed to send email. Please try again later.',
+      }, { status: 500 });
+    }
+
+    // Telegram is a best-effort bonus notification — only attempted if configured,
+    // and never blocks a successful email from returning success.
+    const token = process.env.TELEGRAM_BOT_TOKEN;
+    const chat_id = process.env.TELEGRAM_CHAT_ID;
+    if (token && chat_id) {
+      await sendTelegramMessage(token, chat_id, message);
     }
 
     return NextResponse.json({
-      success: false,
-      message: 'Failed to send message or email.',
-    }, { status: 500 });
+      success: true,
+      message: 'Message sent successfully!',
+    }, { status: 200 });
   } catch (error) {
     console.error('API Error:', error.message);
     return NextResponse.json({
